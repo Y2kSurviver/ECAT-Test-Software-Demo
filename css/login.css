@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
+
+#left-screen {
+    font-family: roboto, Arial, sans-serif;
+    float: left;
+    width: 40%;
+    height: 100vh;
+}
+
+#app-version {
+    color: #e9541d;
+}
+
+#right-screen {
+    float: right;
+    width: 60%;
+    height: 100vh;
+    background-color: #2877bd;
+    color: white;
+}
+
+#student-login-h3 {
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 15%;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+#login-center {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 150px 1fr; /* label in first column, input in second */ gap: 40px 20px;
+    align-items: center;
+}
+
+#username, #pwd {
+    height: 30px; 
+}
+
+#uet-lahore-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 150px;
+}
+
+#show-password {
+    display: relative;
+    margin-left: 78%;
+}
+
+#login-bottom, #login-center {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#login-button {
+    background-color: #e9541d;
+    border: 1px solid white;
+    display: relative;
+    margin-left: 80%;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    margin-top: 5%;
+}
