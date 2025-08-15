@@ -3,44 +3,62 @@
     padding 0;
 }
 
+/*
 @font-face {
     font-family: "roboto";
-    src: url(fonts/Roboto-Italic.ttf);
+    src: url('fonts/Roboto.ttf') format('ttf');
 }
-
+*/
 
 #left-screen {
-    font-family: roboto, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     float: left;
     width: 40%;
     height: 100vh;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
 }
+
+.uni-description {
+    margin: 30px;
+}
+
 
 #app-version {
     color: #e9541d;
+    margin-top: 100px;
 }
 
 #right-screen {
     float: right;
     width: 60%;
     height: 100vh;
-    background-color: #2877bd;
+    background-color: #4368e1;
     color: white;
 }
 
 #student-login-h3 {
     display: inline-block;
-    margin-left: 35%;
+    margin-left: 10%;
     margin-top: 15%;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 310px;
 }
 
+#server-info {
+    display: inline-block;
+    margin-left: 29%; 
+    padding-top: 20px;
+    color: #f6fa07;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 #login-center {
-    margin: 10%;
+    margin: 5% 10% 10% 10%;
     display: grid;
     grid-template-columns: 150px 1fr; /* label in first column, input in second */ gap: 40px 20px;
     align-items: center;
@@ -54,6 +72,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 150px;
 }
 
