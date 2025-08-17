@@ -1,0 +1,63 @@
+<!DOCTYPE html>                                                                                                                     
+<html lang="en">
+<head>                                                                                                                              
+    <title>ECAT Demo</title>                                                                                                        
+    <link rel="stylesheet" href="css/student-verification-screen.css">                                                                      
+</head>                                                                                                                             
+<body>                                                                                                                              
+    <div id="upper-part"> 
+        <div id="header-part">
+            <img id="uet-logo" src="images/UET-Lahore-logo.jpg">
+            <p id="logo-text" >Student Verification Screen</p>
+            <button id="back-button" type="button">Back</button>
+        </div>
+        <p id="server-connection">Connected with Server: 127.0.0.1</p>
+    </div>
+    <div id="lower-part">
+        <div id="student-information-table">
+            <h3 id="student-detail">Student Details</h3>
+
+            <p class="field">Student Roll</p>
+            <p class="record">null</p>
+
+            <p class="field">Student Name</p>
+            <p class="record">null</p>
+
+            <p class="field">Father Name</p>
+            <p class="record">null</p>
+
+            <p class="field">Student CNIC</p>
+            <p class="record">null</p>
+
+            <p class="field">Gender</p>
+            <p class="record">null</p>
+
+            <p class="field">Day</p>
+            <p class="record">null</p>
+
+            <p class="field">Session</p>
+            <p class="record">null</p>
+
+            <p class="field">Test Combination</p>
+            <p id="test-combination" class="record">ITEC,ITEC,ITEC,ITEC</p>
+
+        </div>
+        <div id="student-picture-container">
+            <img id="student-picture" src="images/student-picture.png">
+        </div>
+        <div id="input-section">
+            <p id="lab-coordinator-text-1">Lab Coordinator Pin</p>
+            <p id="lab-coordinator-text-2">Please ask lab coordinator to apply pin here!</p>
+            <div id="input-ui"> 
+                <input id="verify-input" type="password">
+                <button id="verify-button" type="submit">Verify</button> 
+            </div>
+        </div>
+    </div>
+    <script src="js/student-verification-screen.js"></script> 
+</body>                                                                                                                             
+</html>                 
+
+
+
+

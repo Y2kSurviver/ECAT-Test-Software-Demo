@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>ECAT Demo</title>
+      <link rel="stylesheet" href="css/exam-instructions.css">
+</head>
+<body>
+    <div id="upper-part">
+        <div id="time-left">
+            <p id="time-left-label">Time Left to Start Exam</p>
+            <p id="time-clock">00:00:00</p>
+        </div>
+        <button id="close-button" type="button">Close</button>
+        <p id="server-label">Connected with Server: 127.0.0.1</p>
+     </div>
+     <div id="lower-part">
+         <div id="title">Please! Read Exam Instructions Carefully</div>
+         <div id="instructions"></div>
+         <div id="imp-section">
+             <label id="instruction-confirm">
+                 <input id="instruction-confirm-check" type="checkbox" value="no">I have read all the exam instructions carefully.
+             </label>
+             <p id="paper-status">Wait Paper Downloading...</p>
+            <label id="software-confirm">
+                 <input id="software-confirm-check" type="checkbox" value="no">My ECAT software and computer are working properly.
+             </label>
+             <button type="button">Start Exam</button>
+         </div>
+     </div>
+    <script src="js/exam-instructions.js"></script>
+</body>
+</html>
+

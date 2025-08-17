@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#upper-part {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#header-part {
+    display: flex;
+    width: 100vw;
+    height: 11vh;
+    border-bottom: 2px solid #a1a1a1;
+}
+
+#logo-text {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 15px;    
+}
+
+#back-button {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #fd4600;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 30px 0 30px;
+    height: 40%;
+}
+
+#server-connection {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 0.8em;
+}
+
+#lower-part {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 2fr 1fr;
+    width: 90vw;
+    height: 70vh; 
+    grid-gap: 4px;
+}
+
+#student-information-table {
+    display: grid;  
+    grid-row: 1 / span 2;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(9, 1fr);
+    border: 2px solid #bbbbbb;
+}
+
+#student-detail {
+    grid-column: 1 / span 2;
+    align-content: center;
+    border-bottom: 2px solid #838282;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.field, .record{
+    font-family: sans-serif;
+    padding-left: 10px;
+    align-content: center;
+    border-bottom: 2px solid #bbbbbb;
+    border-left: 2px solid #bbbbbb;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#test-combination {
+    font-size: 1.2em;
+    color: #e00505;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#student-picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #bbbbbb;
+}
+#student-picture {
+    width: 95%;
+    height: 95%;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #bbbbbb;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+#lab-coordinator-text-1 {
+    color: #e41d16;
+    margin-top: 15px;
+}
+
+#lab-coordinator-text-2 {
+    font-size: 0.8em;
+}
+
+#input-ui {
+    align-self: flex-start;
+    width: 100%;
+}
+
+#verify-input {
+    width: 60%;
+    padding: 3px;
+    border: 1px solid #e6e5e8; 
+}
+
+#verify-input:focus {
+    outline: none;
+    border-bottom: 2px solid #4792c4;
+}
+
+#verify-button {
+    width: 35%;
+    background-color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #da532a;
+    padding: 4px; 
+    border: 1px solid #e6e5e8; 
+    border-radius: 3px;
+}
+
+#verify-button:hover {
+    border: 2px solid #7daac8;
+
+}
+
