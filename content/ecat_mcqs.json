@@ -1,0 +1,1004 @@
+{
+  "questions": [
+    {
+      "question": "SI unit of force is?",
+      "options": {
+        "A": "Newton",
+        "B": "Joule",
+        "C": "Pascal",
+        "D": "Watt"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Acceleration due to gravity near Earth's surface is approximately?",
+      "options": {
+        "A": "9.8 m/s^2",
+        "B": "9.8 N",
+        "C": "9.8 J",
+        "D": "9.8 m"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Work is defined as?",
+      "options": {
+        "A": "Force \u00d7 Distance",
+        "B": "Mass \u00d7 Velocity",
+        "C": "Power \u00d7 Time",
+        "D": "Energy \u00d7 Time"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a scalar quantity?",
+      "options": {
+        "A": "Velocity",
+        "B": "Displacement",
+        "C": "Force",
+        "D": "Speed"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Power is the rate of doing?",
+      "options": {
+        "A": "Work",
+        "B": "Force",
+        "C": "Energy density",
+        "D": "Momentum"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Unit of electric charge is?",
+      "options": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Coulomb",
+        "D": "Ohm"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The slope of displacement-time graph gives?",
+      "options": {
+        "A": "Acceleration",
+        "B": "Velocity",
+        "C": "Jerk",
+        "D": "Force"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Ohm\u2019s law states V is proportional to?",
+      "options": {
+        "A": "R",
+        "B": "I",
+        "C": "P",
+        "D": "Q"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The unit of frequency is?",
+      "options": {
+        "A": "Hertz",
+        "B": "Newton",
+        "C": "Tesla",
+        "D": "Farad"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which wave requires a medium?",
+      "options": {
+        "A": "Radio wave",
+        "B": "Light",
+        "C": "Sound",
+        "D": "X-ray"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The focal length of a converging lens is?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Undefined"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Momentum is?",
+      "options": {
+        "A": "m/v",
+        "B": "mv",
+        "C": "v/m",
+        "D": "m+v"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which quantity is conserved in elastic collision?",
+      "options": {
+        "A": "Kinetic energy",
+        "B": "Temperature",
+        "C": "Potential energy",
+        "D": "Elastic limit"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The unit of magnetic flux density is?",
+      "options": {
+        "A": "Weber",
+        "B": "Tesla",
+        "C": "Henry",
+        "D": "Siemens"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The speed of light in vacuum is about?",
+      "options": {
+        "A": "3\u00d710^6 m/s",
+        "B": "3\u00d710^7 m/s",
+        "C": "3\u00d710^8 m/s",
+        "D": "3\u00d710^9 m/s"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Capacitance unit is?",
+      "options": {
+        "A": "Ohm",
+        "B": "Farad",
+        "C": "Henry",
+        "D": "Tesla"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Unit of pressure is?",
+      "options": {
+        "A": "Newton",
+        "B": "Pascal",
+        "C": "Watt",
+        "D": "Joule"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "What is the dimensional formula of energy?",
+      "options": {
+        "A": "MLT^-2",
+        "B": "ML^2T^-2",
+        "C": "M^2LT^-2",
+        "D": "ML^2T^-1"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "SI unit of force is?",
+      "options": {
+        "A": "Newton",
+        "B": "Joule",
+        "C": "Pascal",
+        "D": "Watt"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Acceleration due to gravity near Earth's surface is approximately?",
+      "options": {
+        "A": "9.8 m/s^2",
+        "B": "9.8 N",
+        "C": "9.8 J",
+        "D": "9.8 m"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Work is defined as?",
+      "options": {
+        "A": "Force \u00d7 Distance",
+        "B": "Mass \u00d7 Velocity",
+        "C": "Power \u00d7 Time",
+        "D": "Energy \u00d7 Time"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a scalar quantity?",
+      "options": {
+        "A": "Velocity",
+        "B": "Displacement",
+        "C": "Force",
+        "D": "Speed"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Power is the rate of doing?",
+      "options": {
+        "A": "Work",
+        "B": "Force",
+        "C": "Energy density",
+        "D": "Momentum"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Unit of electric charge is?",
+      "options": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Coulomb",
+        "D": "Ohm"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The slope of displacement-time graph gives?",
+      "options": {
+        "A": "Acceleration",
+        "B": "Velocity",
+        "C": "Jerk",
+        "D": "Force"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Ohm\u2019s law states V is proportional to?",
+      "options": {
+        "A": "R",
+        "B": "I",
+        "C": "P",
+        "D": "Q"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The unit of frequency is?",
+      "options": {
+        "A": "Hertz",
+        "B": "Newton",
+        "C": "Tesla",
+        "D": "Farad"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which wave requires a medium?",
+      "options": {
+        "A": "Radio wave",
+        "B": "Light",
+        "C": "Sound",
+        "D": "X-ray"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The focal length of a converging lens is?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Undefined"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Momentum is?",
+      "options": {
+        "A": "m/v",
+        "B": "mv",
+        "C": "v/m",
+        "D": "m+v"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Derivative of sin x is?",
+      "options": {
+        "A": "cos x",
+        "B": "-cos x",
+        "C": "sin x",
+        "D": "-sin x"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Integral of 1/x dx is?",
+      "options": {
+        "A": "x + C",
+        "B": "ln|x| + C",
+        "C": "e^x + C",
+        "D": "1/x + C"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Limit of (1 + 1/n)^n as n\u2192\u221e equals?",
+      "options": {
+        "A": "1",
+        "B": "e",
+        "C": "\u221e",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Roots of x^2 - 4 = 0 are?",
+      "options": {
+        "A": "\u00b14",
+        "B": "\u00b12",
+        "C": "2,4",
+        "D": "0,4"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If A and B are sets, A\u2229B denotes?",
+      "options": {
+        "A": "Difference",
+        "B": "Union",
+        "C": "Intersection",
+        "D": "Complement"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Matrix order of a with 3 rows, 2 columns is?",
+      "options": {
+        "A": "2\u00d73",
+        "B": "3\u00d72",
+        "C": "3\u00d73",
+        "D": "2\u00d72"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If log_a b = c, then a^c equals?",
+      "options": {
+        "A": "b",
+        "B": "c",
+        "C": "a",
+        "D": "ab"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Binomial expansion of (a+b)^2 has middle term?",
+      "options": {
+        "A": "a^2",
+        "B": "2ab",
+        "C": "b^2",
+        "D": "a^2+b^2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The determinant of [[1,0],[0,1]] is?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If f(x)=x^2, then f'(2) is?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Slope of line y=3x+2 is?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "-3",
+        "D": "1/3"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "\u222b0^1 x dx equals?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "0",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If |z|=5 for complex z, modulus equals?",
+      "options": {
+        "A": "Imaginary part",
+        "B": "Argument",
+        "C": "Magnitude",
+        "D": "Real part"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Permutation P(5,2) equals?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "120"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Combination C(5,2) equals?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "120"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If a GP has first term 2 and r=2, third term is?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If |x|=3, x can be?",
+      "options": {
+        "A": "3 only",
+        "B": "-3 only",
+        "C": "3 or -3",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If tan \u03b8 = 1, \u03b8 equals?",
+      "options": {
+        "A": "0\u00b0",
+        "B": "45\u00b0",
+        "C": "90\u00b0",
+        "D": "180\u00b0"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Derivative of sin x is?",
+      "options": {
+        "A": "cos x",
+        "B": "-cos x",
+        "C": "sin x",
+        "D": "-sin x"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Integral of 1/x dx is?",
+      "options": {
+        "A": "x + C",
+        "B": "ln|x| + C",
+        "C": "e^x + C",
+        "D": "1/x + C"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Limit of (1 + 1/n)^n as n\u2192\u221e equals?",
+      "options": {
+        "A": "1",
+        "B": "e",
+        "C": "\u221e",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Roots of x^2 - 4 = 0 are?",
+      "options": {
+        "A": "\u00b14",
+        "B": "\u00b12",
+        "C": "2,4",
+        "D": "0,4"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If A and B are sets, A\u2229B denotes?",
+      "options": {
+        "A": "Difference",
+        "B": "Union",
+        "C": "Intersection",
+        "D": "Complement"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Matrix order of a with 3 rows, 2 columns is?",
+      "options": {
+        "A": "2\u00d73",
+        "B": "3\u00d72",
+        "C": "3\u00d73",
+        "D": "2\u00d72"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If log_a b = c, then a^c equals?",
+      "options": {
+        "A": "b",
+        "B": "c",
+        "C": "a",
+        "D": "ab"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Binomial expansion of (a+b)^2 has middle term?",
+      "options": {
+        "A": "a^2",
+        "B": "2ab",
+        "C": "b^2",
+        "D": "a^2+b^2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The determinant of [[1,0],[0,1]] is?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If f(x)=x^2, then f'(2) is?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Slope of line y=3x+2 is?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "-3",
+        "D": "1/3"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "\u222b0^1 x dx equals?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "0",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which memory is volatile?",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "SSD",
+        "D": "DVD"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which protocol sends email?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "IMAP"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Binary system base is?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "LIFO data structure is?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Tree",
+        "D": "Graph"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Primary key in a database is?",
+      "options": {
+        "A": "A unique identifier",
+        "B": "A duplicate field",
+        "C": "A foreign key",
+        "D": "A null field"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "HTML tag to display image?",
+      "options": {
+        "A": "<image>",
+        "B": "<img>",
+        "C": "<pic>",
+        "D": "<src>"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "CPU stands for?",
+      "options": {
+        "A": "Central Process Unit",
+        "B": "Central Processing Unit",
+        "C": "Computer Processing Unit",
+        "D": "Control Processing Unit"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An example of an OS is?",
+      "options": {
+        "A": "Oracle",
+        "B": "Windows",
+        "C": "HTML",
+        "D": "MySQL"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "One kilobyte equals?",
+      "options": {
+        "A": "1000 bytes",
+        "B": "1024 bytes",
+        "C": "512 bytes",
+        "D": "2048 bytes"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which is not a programming language?",
+      "options": {
+        "A": "Python",
+        "B": "Java",
+        "C": "C++",
+        "D": "HTTP"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which device is output only?",
+      "options": {
+        "A": "Mouse",
+        "B": "Monitor",
+        "C": "Microphone",
+        "D": "Scanner"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "IP address version with 128 bits is?",
+      "options": {
+        "A": "IPv4",
+        "B": "IPv5",
+        "C": "IPv6",
+        "D": "IPv3"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "What does SQL stand for?",
+      "options": {
+        "A": "Structured Query Language",
+        "B": "Simple Query Language",
+        "C": "Standard Query Logic",
+        "D": "Sequential Query Language"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "AND gate outputs 1 when?",
+      "options": {
+        "A": "Both inputs are 1",
+        "B": "Either input is 1",
+        "C": "Inputs are different",
+        "D": "Both inputs are 0"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which storage is optical?",
+      "options": {
+        "A": "SSD",
+        "B": "HDD",
+        "C": "CD-ROM",
+        "D": "RAM"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which topology has a central hub?",
+      "options": {
+        "A": "Ring",
+        "B": "Star",
+        "C": "Bus",
+        "D": "Mesh"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Firewall is used for?",
+      "options": {
+        "A": "Cooling",
+        "B": "Network security",
+        "C": "Power backup",
+        "D": "Printing"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which is an open-source OS?",
+      "options": {
+        "A": "Linux",
+        "B": "Windows",
+        "C": "macOS",
+        "D": "iOS"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which memory is volatile?",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "SSD",
+        "D": "DVD"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which protocol sends email?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "IMAP"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Binary system base is?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "LIFO data structure is?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Tree",
+        "D": "Graph"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Primary key in a database is?",
+      "options": {
+        "A": "A unique identifier",
+        "B": "A duplicate field",
+        "C": "A foreign key",
+        "D": "A null field"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "HTML tag to display image?",
+      "options": {
+        "A": "<image>",
+        "B": "<img>",
+        "C": "<pic>",
+        "D": "<src>"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "CPU stands for?",
+      "options": {
+        "A": "Central Process Unit",
+        "B": "Central Processing Unit",
+        "C": "Computer Processing Unit",
+        "D": "Control Processing Unit"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An example of an OS is?",
+      "options": {
+        "A": "Oracle",
+        "B": "Windows",
+        "C": "HTML",
+        "D": "MySQL"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "One kilobyte equals?",
+      "options": {
+        "A": "1000 bytes",
+        "B": "1024 bytes",
+        "C": "512 bytes",
+        "D": "2048 bytes"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which is not a programming language?",
+      "options": {
+        "A": "Python",
+        "B": "Java",
+        "C": "C++",
+        "D": "HTTP"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which device is output only?",
+      "options": {
+        "A": "Mouse",
+        "B": "Monitor",
+        "C": "Microphone",
+        "D": "Scanner"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "IP address version with 128 bits is?",
+      "options": {
+        "A": "IPv4",
+        "B": "IPv5",
+        "C": "IPv6",
+        "D": "IPv3"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Choose the correct spelling.",
+      "options": {
+        "A": "Accomodate",
+        "B": "Acommodate",
+        "C": "Accommodate",
+        "D": "Acomodate"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "He is very good ___ mathematics.",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "in",
+        "D": "with"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Antonym of 'benevolent' is?",
+      "options": {
+        "A": "Kind",
+        "B": "Cruel",
+        "C": "Generous",
+        "D": "Helpful"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The project was completed ___ schedule.",
+      "options": {
+        "A": "over",
+        "B": "beyond",
+        "C": "ahead of",
+        "D": "without"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Choose the correct article: He is ___ honest man.",
+      "options": {
+        "A": "a",
+        "B": "an",
+        "C": "the",
+        "D": "no article"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Fill in the blank: She prefers tea ___ coffee.",
+      "options": {
+        "A": "than",
+        "B": "to",
+        "C": "over",
+        "D": "from"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Synonym of 'rapid' is?",
+      "options": {
+        "A": "Slow",
+        "B": "Swift",
+        "C": "Calm",
+        "D": "Weak"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Identify the correct tense: 'He has finished his work.'",
+      "options": {
+        "A": "Past simple",
+        "B": "Present perfect",
+        "C": "Past perfect",
+        "D": "Present continuous"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "One word for 'a person who writes poems' is?",
+      "options": {
+        "A": "Novelist",
+        "B": "Poet",
+        "C": "Editor",
+        "D": "Dramatist"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Choose the correct preposition: 'She is afraid ___ dogs.'",
+      "options": {
+        "A": "from",
+        "B": "of",
+        "C": "with",
+        "D": "by"
+      },
+      "answer": "B"
+    }
+  ]
+}

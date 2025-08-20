@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#top-bar {
+    display: flex;
+}
+
+#show-student-detail {
+    padding: 20px 20px 20px 0px;
+    background-color: white;
+    border: 2px solid rgb(230, 230, 230);
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+#show-student-detail:hover {
+    background-color: #e0eef9;
+    border-color: #6b9ec3;
+}
+
+#student-detail-icon {
+    margin-right: 10px;
+}
+
+
+
+/*#################### Student Detail Popup #################*/
+#popup-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.detail-popup {
+    position: absolute;
+    flex-direction: column;
+    top: 15%;
+    left: 30%;
+    z-index: 999;
+}  
+
+#student-detail-popup {
+    width: 50%;
+    background: white;
+    border: 2px solid black;
+}
+
+#student-detail {
+    display: grid;
+    grid-template-rows: 2fr repeat(8, 1fr);
+    grid-template-columns: 1fr 3fr 2fr;
+    height: 250px;        
+    width: 100%;
+    align-items: center;
+}
+
+#student-detail-heading {
+    grid-column: 1 / span 2;
+    color: #4683b6;
+    padding-left: 5px;
+    font-size: 1.1em;
+}
+
+#student-pic {
+    grid-row: span 9; 
+    width: 90%; 
+}
+
+.info-field {
+    font-size: 0.8em;
+    padding-left: 5px;
+    border-top: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.info-data {
+    font-size: 0.8em;
+    padding-left: 5px; 
+    border-top: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    height: 100%;
+    padding-top: 5px;
+}
+
+#last-row-field, #last-row-data {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+
+#connection-detail {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 2fr;
+    height: 100px;
+    width: 100%;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+#connection-detail-heading {
+    grid-column: span 2;
+    justify-self: center;
+    font-size: 1.1em;
+    color: #4683b6;
+}
+
+.connection-field {
+    padding-left: 5px;
+    padding-top: 5px;
+    border-bottom: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    height: 100%;
+}
+
+.connection-data {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #4ed128;
+    height: 100%;
+    border-bottom: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+}
+
+#app-version {
+    justify-self: center;
+    grid-column: span 2;
+    grid-row: 4;
+    color: #ee804e; 
+}
+
+#close-button {
+    border: none;
+    background-color: #ee804e; 
+    color: white;
+    width: 10%;
+    height: 5%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+#top-row-field, #top-row-data {
+    border-top: 2px solid #e1e1e1;
+}
+
+.close {
+    z-index: -1 !important;
+    opacity: 0 !important;
+}
+
+
+/*################## Questions Display #################*/
+#questions-display {
+    font-size: 0.6;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid #c9c8c8;
+    padding-bottom: 15%;
+}
+
+/*################ Options Display ###################*/
+.option-container {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 60px;
+    padding-left: 10px;
+    border-bottom: 2px solid #c9c8c8;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+.option {
+    font-weight: normal;
+}
+
+.option-selected {
+    background-color: #d3d3d3;
+}
+
+/*################# Questions Grid Display ###################*/
+#questions-grid-display {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+    height: 20%;  
+}
+
+/*####### State Stylings #####*/
+.locked {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+}
+
+.current {
+    background-color: #acd7e5;
+    border: 1px solid #d3d3d3;
+}
+
+.skipped {
+    background-color: #fffd00;
+    border: 1px solid #d3d3d3;
+}
+
+.attempted {
+    background-color: #99cb33;
+    border: 1px solid #d3d3d3;
+}

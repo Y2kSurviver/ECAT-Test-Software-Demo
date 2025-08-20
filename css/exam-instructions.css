@@ -138,5 +138,15 @@ body {
     font-size: 0.6em;
     font-weight: bold;
     color: #bfbcbc;
+    border-bottom: 2px solid #d9d8d8;
+}
 
+#start-exam-button {
+    width: 97%;
+    height: 88%;
+    margin: auto;
+    background-color: #0000b0;
+    color: white;
+    font-weight: bold;
+    border: none;
 }

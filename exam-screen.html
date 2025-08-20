@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ECAT Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/exam-screen.css">
+</head>
+<body>
+    <div id="top-bar">
+        <button id="show-student-detail"><i id="student-detail-icon" class="fa fa-file-text" aria-hidden="true"></i>Student Details</button>
+        <p>Attempted Questions: 0/100</p>
+        <button>Zoom Out</button>
+        <button>Zoom In</button>
+    </div>
+
+    <!-- Student Detail popup -->
+    <div class="close" id="popup-container">
+        <div id="student-detail-popup" class="detail-popup">
+            <div id="student-detail">
+                <p id="student-detail-heading">Student Details</p>
+                <img id="student-pic" src="images/student-picture.png">
+                <p class="info-field">Student Roll</p>
+                <p class="info-data">null</p>
+                <p class="info-field">Student Name</p>
+                <p class="info-data">null</p>
+                <p class="info-field">Father Name</p>
+                <p class="info-data">null</p>
+                 <p class="info-field">Day</p>
+                <p class="info-data">Day1</p>
+                 <p class="info-field">Session</p>
+                <p class="info-data">Session1</p>
+                 <p class="info-field">Combination</p>
+                <p class="info-data">ITEC,ITEC,ITEC,ITEC</p>
+                 <p id="last-row-field" class="info-field"></p>
+                <p  id="last-row-data" class="info-data"></p>
+ 
+            </div>
+            <div id="connection-detail">
+                <p id="connection-detail-heading">Connection Details</p>
+                <p id="top-row-field" class="connection-field">Your IP</p>
+                <p id="top-row-data" class="connection-data">null</p>
+                <p class="connection-field">You are connected with:</p>
+                <p class="connection-data">null</p> 
+                <p id="app-version">App Version 25.2.1</p>
+            </div>
+            <button id="close-button">Close</button>
+        </div>
+    </div> 
+
+    <!-------------------- Questions Display ----------------------->
+    <div id="questions-display">
+        <p id="current-question">This is a question.</p>
+    </div>
+
+    <!-------------------- Options Display -------------------------->
+    <div id="options-display">
+        <form id="options-form">
+            <div class="option-container">
+                <label>A</label>
+                <input type="radio" name="options">
+                <label class="option"></label>
+            </div>
+
+            <div class="option-container">
+                <label>B</label>
+                <input type="radio" name="options">
+                <label class="option"></label>
+            </div>
+
+            <div class="option-container">
+                <label>C</label>
+                <input type="radio" name="options">
+                <label class="option"></label>
+            </div>
+
+            <div class="option-container">
+                <label>D</label>
+                <input type="radio" name="options">
+                <label class="option"></label>
+            </div>
+        </form>
+    </div>
+    <!---------------------- Indicators and Buttons ------------->
+    <div id="mid-bar">
+        <button id="skip-button">Skip and Next</button>
+        <button id="save-button">Save and Next</button>
+    </div>
+    <!-------------------- Grid Display ------------------------->
+    <div id="questions-grid-display"></div>
+
+    <script src="js/question.js"></script>
+    <script src="js/exam-screen.js"></script>
+</body>
+</html>
