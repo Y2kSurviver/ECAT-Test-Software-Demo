@@ -62,7 +62,7 @@ class Question {
                 // (the previous queston, the new queston index);
                 this.manageStateChange(states.SKIPPED, i);
                 this.skipBack();
-                current.skipBack();
+                //current.skipBack();
                 break; 
             }
         }
@@ -89,6 +89,7 @@ class Question {
         // switch
         current = next;
 
+        // next
         current.state = states.CURRENT;
         current.setStyling();
         current.render(currentQuestionP, optionChoices);
@@ -98,12 +99,13 @@ class Question {
     // cannot skip forward
     skipBack() {
         this.button.addEventListener('click', () => {
+            console.log({ current, other: this});
             if (!this.attempted) {
                 if (!current.attempted) {
                     current.manageStateChange(states.SKIPPED, this.questionNum); 
-                } else {
-                    this.attempted = true;
-                    this.setChoice();
+                } 
+                else {
+                    current.setChoice();
                     current.manageStateChange(states.ATTEMPTED, this.questionNum); 
                 }
             }
@@ -112,7 +114,6 @@ class Question {
 
     setChoice() {
         if (this.attempted) {
-            console.log(choice);
             questions[this.questionNum].choice = choice;
         }
     }

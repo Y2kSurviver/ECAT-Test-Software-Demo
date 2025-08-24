@@ -26,6 +26,8 @@ studentDetailClose.addEventListener('click', () => {
 radioButtons.forEach((radio, i) => {
     radio.addEventListener('change', () => {
         current.attempted = true;
+        resetOptionsStyling();
+        optionContainers[i].classList.add('option-selected');
         choice = String.fromCharCode(65 + i);
     });
 });
@@ -39,6 +41,7 @@ skipButton.addEventListener('click', () => {
 saveButton.addEventListener('click', () => {
     if (current.attempted) {
         current.save();
+        resetOptionsStyling();
     }
 });
 
@@ -57,13 +60,18 @@ function handleMCQs(mcqs) {
     current.state = states.CURRENT;
     current.render(currentQuestionP, optionChoices);
 
-    console.log(questions);
-
     for (let question of questions) {
         question.renderToGrid(questionsGrid);
     }
     // generateOptions(data);
 }
 
-//TODO: add option-select class to radion buttons for highlighting
+function resetOptionsStyling() {
+    const optionCarr = Object.values(optionContainers);
+    optionCarr.forEach(optionC => {
+        optionC.classList.remove('option-selected');
+    });
+}
+
+//TODO: add option-select class to radio buttons for highlighting
 

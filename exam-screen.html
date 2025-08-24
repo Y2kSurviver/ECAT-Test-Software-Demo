@@ -11,9 +11,13 @@
 <body>
     <div id="top-bar">
         <button id="show-student-detail"><i id="student-detail-icon" class="fa fa-file-text" aria-hidden="true"></i>Student Details</button>
-        <p>Attempted Questions: 0/100</p>
-        <button>Zoom Out</button>
-        <button>Zoom In</button>
+        <p id="attempted-questions-count">Attempted Questions: 0/100</p>
+        <button id="zoom-out-button">Zoom Out</button>
+        <button id="zoom-in-button">Zoom In</button>
+        <button id="finish-button">Finish Exam</button>
+        <p>Paper Start Time 00: 00</p>
+        <p>Time Left</p><i class="fa fa-clock" aria-hidden="true"></i>
+        <p id="time-left">some time</p>
     </div>
 
     <!-- Student Detail popup -->
@@ -86,6 +90,19 @@
     <!---------------------- Indicators and Buttons ------------->
     <div id="mid-bar">
         <button id="skip-button">Skip and Next</button>
+        <div>
+            <div></div>
+            <p>Skipped Questions</p>
+            <div></div>
+            <p>Locked</p>
+
+            <div></div>
+            <p>Attempted</p>
+
+            <div></div>
+            <p>Current</p>
+        </div>
+        <p>Note: Please select the option carefully. Once you have selected the option you cannot change it.</p>
         <button id="save-button">Save and Next</button>
     </div>
     <!-------------------- Grid Display ------------------------->

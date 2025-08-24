@@ -9,8 +9,11 @@ body {
     height: 100vh;
 }
 
+/*#################### Top Bar ###########################*/
 #top-bar {
     display: flex;
+    font-family: sans-serif;
+    align-items: center;
 }
 
 #show-student-detail {
@@ -28,6 +31,22 @@ body {
 
 #student-detail-icon {
     margin-right: 10px;
+}
+
+#attempted-questions-count {
+    font-weight: bold;
+    font-size: 0.6em;
+    border: 2px solid #c1c1c1;
+    padding: 10px 50px 10px 50px;
+}
+
+#zoom-out-button, #zoom-in-button {
+    background-color: white;
+    color: #a40000;
+    font-weight: bold;
+    border: 2px solid #a40000;
+    width: 15%;
+    padding: 10px;
 }
 
 
