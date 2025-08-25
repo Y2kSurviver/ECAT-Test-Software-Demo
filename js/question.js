@@ -99,7 +99,6 @@ class Question {
     // cannot skip forward
     skipBack() {
         this.button.addEventListener('click', () => {
-            console.log({ current, other: this});
             if (!this.attempted) {
                 if (!current.attempted) {
                     current.manageStateChange(states.SKIPPED, this.questionNum); 
@@ -107,6 +106,8 @@ class Question {
                 else {
                     current.setChoice();
                     current.manageStateChange(states.ATTEMPTED, this.questionNum); 
+                    attemptedQuestions++;
+                    setAttempted();
                 }
             }
         });
